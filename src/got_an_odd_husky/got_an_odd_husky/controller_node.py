@@ -12,10 +12,12 @@ class ControllerNode(Node):
 
     def timer_callback(self):
         twist_stamped_message = TwistStamped()
-        twist_stamped_message.twist.linear.x = 5.0
-        
+        twist_stamped_message.twist.linear.x = 2.0
+        twist_stamped_message.twist.angular.z = 2.0
+
         self.velocity_publisher.publish(twist_stamped_message)
-        self.get_logger().info('Publishing linear.x: %f' % 5.0)
+        self.get_logger().info('Publishing linear.x, angular.z: %f %f' % (2.0, 2.0))
+        print(twist_stamped_message.twist)
 
 
 def main():

@@ -8,4 +8,6 @@ In container run `./init.sh` and `./build.sh` from `/workspace/turtlebot4_sim_ws
 
 Re-run the latter `./build.sh` when changing the program
 
+Lastly, `ros2 run got_an_odd_husky controller_node`
+
 In the end `docker stop ros_dev` and `docker rm ros_dev`
