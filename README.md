@@ -4,7 +4,9 @@ Start: `./start.sh` or `./start.sh <path-to-turtlebot4_sim_ws>`
 
 Then `docker exec -ti ros_dev bash`
 
-In container run `./init.sh` and `./build.sh` from `/workspace/turtlebot4_sim_ws`, then run the scripts with the same names from `/workspace/got-an-odd-husky`
+After starting the container for the first time run `./init.sh` and `./build.sh` from `/workspace/turtlebot4_sim_ws`, then run `./init.sh` and `./build.sh` from `/workspace/got-an-odd-husky`
+
+Relaunch the shell
 
 Re-run the latter `./build.sh` when changing the program
 

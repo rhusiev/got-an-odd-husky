@@ -20,6 +20,7 @@ setup(
     entry_points={
         "console_scripts": [
             "controller_node = got_an_odd_husky.controller_node:main",
+            "lidar_visualize = got_an_odd_husky.lidar_visualize:main",
         ],
     },
 )
