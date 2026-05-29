@@ -1,9 +1,9 @@
 import math
 
-USE_GPS: bool = False
+USE_GPS: bool = True
 DEBUG: bool = True
 
-SIM: bool = False
+SIM: bool = True
 if SIM:
     TOPICS: dict[str, str] = {
         "cmd_vel": "/husky/cmd_vel",

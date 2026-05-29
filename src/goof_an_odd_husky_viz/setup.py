@@ -24,6 +24,7 @@ setup(
     entry_points={
         "console_scripts": [
             "visualizer_node = goof_an_odd_husky_viz.visualizer_node:main",
+            "web_visualizer_node = goof_an_odd_husky_viz.web_visualizer_node:main",
         ],
     },
 )
